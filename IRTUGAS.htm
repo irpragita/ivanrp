@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title> DATA MAHASISWA </title>
+	
+</head>
+<body bgcolor=pink>
+<h1><center> Data Mahasiswa UNIVERSITAS GUNADARMA </center></h1>
+ <table border=1 cellpadding=5 cellspacing=3 align=center id='tabelinput'>
+                        <tr>
+                            <td align=center>NPM</td>
+                            <td align=center>NAMA LENGKAP</td>
+							<td align=center>TGL. LAHIR</td>
+                        </tr>
+                        <tr>
+							<td align=center>43117016</td>
+                            <td align=center>Ivan Ramdhan Pragita</td>
+							<td align=center>13 Januari 1998</td>
+</tr>
+</table>
+<br>
+
+<pre style="text-indent:14cm; font-family:roboto; font-size:13pt;">List</pre>
+  <ul>
+	<li style="text-indent:13cm;">Ivan Ramdhan Pragita</li>
+    <li style="text-indent:13cm;">IR Pragita</li>
+	</ul>
+<pre style="text-indent:14cm; font-family:roboto;font-size:13pt;">List Number</pre>
+  <ul>
+  <li style="text-indent:13cm;">082297764554</li>
+   <li style="text-indent:13cm;">085920685393</li>
+	</ul>
+	<br>
+<form name='biodata' method='post' action='index.html' align=center>
+<pre>
+NPM     	: <input type='text' name='npm'><p id='val_npm'></p>
+Nama    	: <input type='text' name='nama' ><p id='val_nama'></p>
+Tgl Lahir       :     <input type='date' name='tgllahir' ><p id='val_tgl'></p>
+  <input type='button' onClick='terimainput()' value='Simpan'> <input type='reset' value='Ulangi'>
+
+</form>
+</body>
+</html>
